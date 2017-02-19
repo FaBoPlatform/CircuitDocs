@@ -161,6 +161,10 @@ https://voltera.io/assets/downloads/Voltera_DRC.dru
 
 [](/img/board011.png)
 
+## やり直し
+
+[](/img/board012.png)
+
 
 
 
