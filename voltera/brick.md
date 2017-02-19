@@ -163,6 +163,21 @@ https://voltera.io/assets/downloads/Voltera_DRC.dru
 
 ![](/img/board012.png)
 
+## データ出力
+
+Voltera CAMファイルを下記よりDownloadする。
+
+https://voltera.io/assets/downloads/Voltera_CAM.zip
+
+![](/img/voltera001.png)
+
+![](/img/voltera002.png)
+
+![](/img/voltera003.png)
+
+![](/img/voltera004.png)
+
+![](/img/voltera005.png)
 
 
 
