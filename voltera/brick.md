@@ -141,8 +141,6 @@ https://voltera.io/assets/downloads/Voltera_DRC.dru
 
 ![](/img/board004.png)
 
-![](/img/board005.png)
-
 ![](/img/board006.png)
 
 ## 部品レイアウトを調整する
