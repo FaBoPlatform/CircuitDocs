@@ -123,6 +123,44 @@ WS2812Bを3個配置する。
 
 ![](/img/colorled033.png)
 
+## レイアウト
+
+Boardレイアウトに画面を移動する。
+
+[](/img/board001.png)
+
+[](/img/board002.png)
+
+## Design Ruleを適用する
+
+Voltera Design Rule Checkを下記よりDownloadする。
+
+https://voltera.io/assets/downloads/Voltera_DRC.dru
+
+[](/img/board003.png)
+
+[](/img/board004.png)
+
+[](/img/board005.png)
+
+[](/img/board006.png)
+
+## 部品レイアウトを調整する
+
+[](/img/board007.png)
+
+[](/img/board008.png)
+
+[](/img/board009.png)
+
+自動配線のうち、1つを選択し、End Jobを選ぶ。
+
+[](/img/board010.png)
+
+リフローでペーストハンダを塗り箇所近辺は、適度に線の間隔をあける。
+
+[](/img/board011.png)
+
 
 
 
