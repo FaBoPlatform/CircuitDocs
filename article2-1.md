@@ -1,54 +1,30 @@
 # 環境設定
 
-
-
 ## Eagleのダウンロード
-
 
 基板データ作成にはEagleという回路図作成用のCADツールを使用します。
 
-
 Eagleのダウンロード
 <br>
-http://www.cadsoftusa.com/download-eagle/
+https://www.autodesk.com/products/eagle/free-download
 
 <br>
 ## ライブラリを取り込む
 
-下記のライブラリをダウンロードし「Eagle-7.2.0 > lbr」に保存します。
+**FaBo**
 <br>
-![](circuit2-1-01.jpg)
+https://github.com/FaBoPlatform/FaBo-Eagle-Libraries
+<br>
 
-**Adafruit**
+下記のライブラリをダウンロードし「Eagle-8.x.x > lbr」に保存します。
 <br>
-https://github.com/adafruit/Adafruit-Eagle-Library
-<br>
-![](circuit2-1-02.jpg)
+![](circuit2-1-01.png)
 
-**Sparkfun**
-<br>
-https://github.com/sparkfun/SparkFun-Eagle-Libraries/blob/master/SparkFun-DigitalIC.lbr
-<br>
-![](circuit2-1-03.jpg)
-
-
-<br>
 
 ## Eagleの実行
 
 Eagleを実行します。
 <br>
-![](circuit2-1-04.jpg)
-
-「Run as Freeware」を選択します。
-<br>
-※商用で販売する基板や、企業で使う場合はライセンスを購入してください。
-<br>
-![](circuit2-1-05.jpg)
-
-これで準備は完了です。
-<br>
-![](circuit2-1-06.jpg)
 
 
 
