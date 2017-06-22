@@ -17,7 +17,7 @@
    * [3.1 環境設定](pcb/setting.md)
    * [3.2 新規回路](pcb/new.md)
    * [3.3 下地の配置](pcb/arduino_base.md)
-   * [3.4 レギュレータ、DCジャックの配置](article2-3.md)
+   * [3.4 レギュレータ、DCジャックの配置](pcb/regulator.md)
    * [3.5 ICの配置](article2-4.md)
    * [3.6 水晶発信子の配置](article2-5.md)
    * [3.7 配線](article2-6.md)
@@ -32,7 +32,6 @@
    * [4.3 Color LED Brickの作成(3PIN)](voltera/color_led.md)
    * [4.4 Temperature Brickの作成(3PIN)](voltera/temp.md)
    * [4.4 Temperature(I2C) Brickの作成(4PIN)](voltera/i2c_temp.md)
-
 * [Lab0(Analog)](lab00.md)
    * [LED](led.md)
    * [照度](light.md)
