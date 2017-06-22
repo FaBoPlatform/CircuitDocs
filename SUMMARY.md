@@ -25,8 +25,10 @@
    * [3.9 USBシリアル変換アダプタの配置](article2-9.md)
    * [3.10 レイアウト](article2-10.md)
    * [3.11 発注用データ作成](article2-11.md)
-* [4. Voltera]
+* 4. Voltera
    * [4.1 環境設定](voltera/setting.md)
+   * [4.3 LED Brcikの作成(3PIN)](voltera/led.md)
+   * [4.4 Color LED Brickの作成(3PIN)](voltera/color_led.md)
 * [Lab0(Analog)](lab00.md)
    * [LED](led.md)
    * [照度](light.md)
