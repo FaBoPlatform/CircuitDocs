@@ -4,6 +4,10 @@
 
 ![](./img/schematic_regulator.png)
 
+## 種類
+
+![](./img/type_regulator.png)
+
 ## 3端子レギュレータ、DCジャックの配置
 
 YouTubeの動画

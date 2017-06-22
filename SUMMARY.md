@@ -20,7 +20,7 @@
    * [3.4 レギュレータ、DCジャックの配置](pcb/regulator.md)
    * [3.5 mpuの配置](pcb/mpu.md)
    * [3.6 水晶発信子の配置](pcb/crystal.md)
-   * [3.7 配線](article2-6.md)
+   * [3.7 配線](pcb/line.md)
    * [3.8 LEDの配置](article2-7.md)
    * [3.9 リセット機能](article2-8.md)
    * [3.10 USBシリアル変換アダプタの配置](article2-9.md)
