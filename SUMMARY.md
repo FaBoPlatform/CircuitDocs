@@ -29,6 +29,9 @@
    * [4.1 環境設定](voltera/setting.md)
    * [4.2 LED Brcikの作成(3PIN)](voltera/led.md)
    * [4.3 Color LED Brickの作成(3PIN)](voltera/color_led.md)
+   * [4.4 Temperature Brickの作成(3PIN)](voltera/temp.md)
+   * [4.4 Temperature(I2C) Brickの作成(4PIN)](voltera/i2c_temp.md)
+
 * [Lab0(Analog)](lab00.md)
    * [LED](led.md)
    * [照度](light.md)
