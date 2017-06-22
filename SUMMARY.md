@@ -16,7 +16,7 @@
 * [3. Arduino互換機作成](chapter2.md)
    * [3.1 環境設定](pcb/setting.md)
    * [3.2 新規回路](pcb/new.md)
-   * [3.3 下地の配置](article2-2.md)
+   * [3.3 下地の配置](pcb/arduino_base.md)
    * [3.4 レギュレータ、DCジャックの配置](article2-3.md)
    * [3.5 ICの配置](article2-4.md)
    * [3.6 水晶発信子の配置](article2-5.md)
