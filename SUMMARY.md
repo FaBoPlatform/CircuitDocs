@@ -14,7 +14,7 @@
    * [2.7 USBシリアル変換モジュールの接続](article1-7.md)
    * [2.8 マイコンへの書込み](article1-8.md)
 * [3. Arduino互換機作成](chapter2.md)
-   * [3.1 環境設定](article2-1.md)
+   * [3.1 環境設定](pcb/setting.md)
    * [3.2 下地の配置](article2-2.md)
    * [3.3 レギュレータ、DCジャックの配置](article2-3.md)
    * [3.4 ICの配置](article2-4.md)
