@@ -969,14 +969,30 @@
 <p><img alt="" src="../bootlaoder01.jpg" /></p>
 <p><img alt="" src="../bootlaoder02.jpg" /></p>
 <h2 id="arduinoisp">ArduinoをISPに設定</h2>
+<ol>
+<li>
 <p>ArduinoIDEを起動し、メニューより、<span class="keys"><kbd>ファイル</kbd><span>+</span><kbd>スケッチの例</kbd><span>+</span><kbd>11.ArduinoISP</kbd><span>+</span><kbd>ArduinoISP</kbd></span>を選択します。</p>
+</li>
+<li>
 <p>メニューより<span class="keys"><kbd>ツール</kbd><span>+</span><kbd>マイコンボード</kbd><span>+</span><kbd>Arduino Uno</kbd></span>を選択します。</p>
+</li>
+<li>
 <p>メニューの<span class="keys"><kbd>ツール</kbd><span>+</span><kbd>シリアルポート</kbd><span>+</span><kbd>/dev/cu.usb◯◯◯(Arduino Uno)</kbd></span>を選択します。</p>
+</li>
+<li>
 <p>画面左上の「→」ボタンを押すと書き込みが行われます。
 画像では「書込装置を使って書き込む」と書いてありますが、実際は「マイコンボードに書込む」が表示されます。</p>
+</li>
+</ol>
 <h2 id="_2">ブートローダーの書込み</h2>
+<ol>
+<li>
 <p>メニューの<span class="keys"><kbd>ツール</kbd><span>+</span><kbd>書込装置</kbd><span>+</span><kbd>2Arduino as ISP</kbd><span>+</span><kbd>Arduino as ISP</kbd></span>を選択します。</p>
+</li>
+<li>
 <p>メニューの<span class="keys"><kbd>ツール</kbd><span>+</span><kbd>ブートローダーを書き込む</kbd></span>を選択します。</p>
+</li>
+</ol>
 <p>ここでエラーがでなければ完了です。</p>
 <div class=md-fenced-code-tabs id=tab-tab-group-0><input name=tab-group-0 type=radio id=tab-group-0-0_python checked=checked class=code-tab data-lang=python aria-controls=tab-group-0-0_python-panel role=tab><label for=tab-group-0-0_python class=code-tab-label data-lang=python id=tab-group-0-0_python-label>Python 2</label><div class=code-tabpanel role=tabpanel data-lang=python id=tab-group-0-0_python-panel aria-labelledby=tab-group-0-0_python-label><table class=codehilitetable><tr><td class=linenos><div class=linenodiv><pre>1</pre></div></td><td class=code><div class=codehilite><pre><span></span><span class=k>print</span> <span class=s2>&quot;Bonjour&quot;</span> 
 </pre></div></td></tr></table></div><input name=tab-group-0 type=radio id=tab-group-0-1_python class=code-tab data-lang=python aria-controls=tab-group-0-1_python-panel role=tab><label for=tab-group-0-1_python class=code-tab-label data-lang=python id=tab-group-0-1_python-label>Python 3</label><div class=code-tabpanel role=tabpanel data-lang=python id=tab-group-0-1_python-panel aria-labelledby=tab-group-0-1_python-label><table class=codehilitetable><tr><td class=linenos><div class=linenodiv><pre>1</pre></div></td><td class=code><div class=codehilite><pre><span></span><span class=k>print</span><span class=p>(</span><span class=s2>&quot;Bonjour&quot;</span><span class=p>)</span>
