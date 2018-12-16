@@ -305,8 +305,8 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" title="ここで使用するもの" class="md-nav__link">
-    ここで使用するもの
+  <a href="#_1" title="本項で使用するもの" class="md-nav__link">
+    本項で使用するもの
   </a>
   
 </li>
@@ -316,18 +316,12 @@
     説明
   </a>
   
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
+</li>
+      
+        <li class="md-nav__item">
   <a href="#_3" title="配線図" class="md-nav__link">
     配線図
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -932,8 +926,8 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" title="ここで使用するもの" class="md-nav__link">
-    ここで使用するもの
+  <a href="#_1" title="本項で使用するもの" class="md-nav__link">
+    本項で使用するもの
   </a>
   
 </li>
@@ -943,18 +937,12 @@
     説明
   </a>
   
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
+</li>
+      
+        <li class="md-nav__item">
   <a href="#_3" title="配線図" class="md-nav__link">
     配線図
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -976,21 +964,34 @@
                 
                 
                 <h1 id="13-ic">1.3 ICの接続</h1>
-<h2 id="_1">ここで使用するもの</h2>
-<p>ATMEGA 328P</p>
+<h2 id="_1">本項で使用するもの</h2>
+<table>
+<thead>
+<tr>
+<th align="left">項目</th>
+<th align="left">入手先</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ATMEGA 328P</td>
+<td align="left"><a href="http://akizukidenshi.com/catalog/g/gI-03142/">http://akizukidenshi.com/catalog/g/gI-03142/</a></td>
+</tr>
+</tbody>
+</table>
 <h2 id="_2">説明</h2>
-<p><strong>・ATMEGA328P</strong>
-<br>
-<img alt="" src="../circuit1-03.jpg" /></p>
-<p>プログラムを動作させるために必要になります。
-<br>
-ArduinoIDEにてマイコンにプログラムを書込む場合、先にArduino用のブートローダーを書込む必要がありますが、
-今回はブートローダーが既に入っているものを使用します。</p>
-<p><br></p>
-<p><strong>ATMEGA 328P 配線図</strong>
-<br>
-<img alt="" src="../circuit1-04.jpg" /></p>
-<p><br></p>
+<dl>
+<dt><b>ATMEGA328P</b></dt>
+<dd>
+<p><img alt="" src="../circuit1-03.jpg" />
+プログラムを動作させるために必要になります。
+ArduinoIDEにてマイコンにプログラムを書込む場合、先にArduino用のブートローダーを書込む必要がありますが、今回はブートローダーが既に入っているものを使用します。</p>
+</dd>
+<dt><b>ATMEGA 328P 配線図</b></dt>
+<dd>
+<p><img alt="" src="../circuit1-04.jpg" /></p>
+</dd>
+</dl>
 <p>ATMEGA 328Pのピンの説明</p>
 <table>
 <thead>
@@ -1060,93 +1061,14 @@ ArduinoIDEにてマイコンにプログラムを書込む場合、先にArduino
 <td>A4</td>
 <td>A5</td>
 </tr>
-<tr>
-<td>D：Digitalピン</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><br></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>A：Analogピン</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><br></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>XTAL：水晶発信子</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
 </tbody>
 </table>
-<p>赤い部分に5V、黒い部分にGNDを接続します。
-<br>
-<img alt="" src="../circuit1-05.jpg" /></p>
-<p><br></p>
-<h4 id="_3">配線図</h4>
+<p>D：Digitalピン
+ A：Analogピン
+ XTAL：水晶発信子</p>
+<p>赤い部分に5V、黒い部分にGNDを接続します。</p>
+<p><img alt="" src="../circuit1-05.jpg" /></p>
+<h2 id="_3">配線図</h2>
 <p><img alt="" src="../circuit1-06.jpg" /></p>
                 
                   
