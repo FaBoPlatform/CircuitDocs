@@ -11,6 +11,10 @@ markdown_extensions:
       linenums: true
   - admonition
   - pymdownx.keys
+  - markdown_fenced_code_tabs
+  - markdown.extensions.def_list
+extra_javascript:
+  - 'javascripts/extra.js'
 extra_css:
   - "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"  
   - 'stylesheets/extra.css'
