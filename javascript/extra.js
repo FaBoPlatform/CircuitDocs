@@ -1,4 +1,3 @@
-// Load Videos in the Docs
 $(document).ready(function () {
     $('img[alt="YOUTUBE"]').each(function () {
         var id = $(this).attr('src').split('/')[$(this).attr('src').split('/').length - 1];
