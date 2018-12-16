@@ -28,7 +28,7 @@ USBシリアルアダプタを使用する場合、専用のドライバが必�
 |項目|入手先|
 |:--|:--|
 |ブレッドボード　×　2|[http://akizukidenshi.com/catalog/g/gP-05294/](http://akizukidenshi.com/catalog/g/gP-05294/)|
-|ATMEGA328（ブートローダー書き込み済|[https://www.switch-science.com/catalog/663/](https://www.switch-science.com/catalog/663/)|
+|ATMEGA328（ブートローダー書き込み済)|[https://www.switch-science.com/catalog/663/](https://www.switch-science.com/catalog/663/)|
 |FT232RL搭載小型USB-シリアルアダプタ 5V|[http://www.switch-science.com/products/detail.php?product_id=342](http://www.switch-science.com/products/detail.php?product_id=342)|
 |水晶発信子(16MHz)|[http://akizukidenshi.com/catalog/g/gP-08671/](http://akizukidenshi.com/catalog/g/gP-08671/)|
 |3端子レギュレータ(7805)|[http://akizukidenshi.com/catalog/g/gI-01373/](http://akizukidenshi.com/catalog/g/gI-01373/)|
