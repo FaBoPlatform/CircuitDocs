@@ -5,7 +5,11 @@ window.onload = function() {
         	var src = tag[i].src;
         	src = src.match(".+/(.+?)$")[1]
         	alert(src);
-        	tag[i].innerHTML = "<span style='color: red;'>span要素に変更したよ！</span>";
+        	tag[i].innerHTML = "<video width=\"320\" height=\"240\" controls>\
+        	<source src=\"movie.mp4\" type=\"video/mp4\">\
+        	<source src=\"movie.ogg\" type=\"video/ogg\">\
+        	Your browser does not support the video tag.\
+        	</video>";
         }
     }
 }
