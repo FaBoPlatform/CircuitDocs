@@ -320,6 +320,7 @@
      <lastmod>2018-12-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
+<<<<<<< HEAD
     <url>
      <loc>None</loc>
      <lastmod>2018-12-17</lastmod>
@@ -355,4 +356,6 @@
      <lastmod>2018-12-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
+=======
+>>>>>>> 9bde10291fd047f970a7f6f99e8d128cb9cf7487
 </urlset>
