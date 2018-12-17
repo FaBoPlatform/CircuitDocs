@@ -516,18 +516,6 @@
           
           
 
-
-  <li class="md-nav__item">
-    <a href="../06.xtal/" title="2.5 水晶発信子の配置" class="md-nav__link">
-      2.5 水晶発信子の配置
-    </a>
-  </li>
-
-        
-          
-          
-          
-
   
 
 
@@ -557,6 +545,13 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#_1" title="配置するパーツ" class="md-nav__link">
+    配置するパーツ
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#atmega328" title="ATMEGA328の配置" class="md-nav__link">
     ATMEGA328の配置
   </a>
@@ -564,14 +559,14 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_1" title="線を引き、ラベル名をつける" class="md-nav__link">
+  <a href="#_2" title="線を引き、ラベル名をつける" class="md-nav__link">
     線を引き、ラベル名をつける
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" title="ラベル名の変更" class="md-nav__link">
+  <a href="#_3" title="ラベル名の変更" class="md-nav__link">
     ラベル名の変更
   </a>
   
@@ -592,6 +587,18 @@
   
 </nav>
     
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../07.xtal/" title="2.5 水晶発信子の配置" class="md-nav__link">
+      2.5 水晶発信子の配置
+    </a>
   </li>
 
         
@@ -1281,6 +1288,13 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#_1" title="配置するパーツ" class="md-nav__link">
+    配置するパーツ
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#atmega328" title="ATMEGA328の配置" class="md-nav__link">
     ATMEGA328の配置
   </a>
@@ -1288,14 +1302,14 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_1" title="線を引き、ラベル名をつける" class="md-nav__link">
+  <a href="#_2" title="線を引き、ラベル名をつける" class="md-nav__link">
     線を引き、ラベル名をつける
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" title="ラベル名の変更" class="md-nav__link">
+  <a href="#_3" title="ラベル名の変更" class="md-nav__link">
     ラベル名の変更
   </a>
   
@@ -1327,17 +1341,41 @@
                 
                 <h1 id="26-ic">2.6 ICの配置</h1>
 <p>Arduino Unoで使用されている「ATMEGA328P」を配置します。</p>
-<p>ATMEGA328P
-<a href="http://www.atmel.com/images/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet_Complete.pdf">データシート</a></p>
+<h2 id="_1">配置するパーツ</h2>
+<table>
+<thead>
+<tr>
+<th align="left">部品名</th>
+<th align="left">場所</th>
+<th align="left">データシート</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ATMEGA328P</td>
+<td align="left"><span class="keys"><kbd>FaBo-MPU</kbd><span>+</span><kbd>ATMEGA328P_PDIP</kbd></span></td>
+<td align="left">[データシート](</td>
+</tr>
+<tr>
+<td align="left">http://www.atmel.com/images/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet_Complete.pdf)</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
 <h2 id="atmega328">ATMEGA328の配置</h2>
 <p>ATMEGA328Pを配置します。</p>
-<p>ツールバーのAddを選択し、ATMEGA*で検索を行い、「ATMEGA328P_PDIP」を選択します。</p>
-<p><img alt="" src="../circuit2-4-02.jpg" /></p>
+<p>ツールバーより<span class="keys"><kbd>Add Part</kbd></span>を選択します。</p>
+<p><span class="keys"><kbd>FaBo-MPU</kbd><span>+</span><kbd>ATMEGA328P_PDIP</kbd></span>を選択します。</p>
+<p><img alt="" src="../img/ic001.png" /></p>
 <p>ATMEGA328Pは空いている箇所に配置します。</p>
-<p>少し余裕を持って配置すると良いです。</p>
-<p><img alt="" src="../circuit2-4-03.jpg" /></p>
-<h2 id="_1">線を引き、ラベル名をつける</h2>
-<p>ツールバーより「Net」を選択します。</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>余裕を持って配置してください。</p>
+</div>
+<p><img alt="" src="../img/ic002.png" /></p>
+<h2 id="_2">線を引き、ラベル名をつける</h2>
+<p>ツールバーより<span class="keys"><kbd>Net</kbd></span>を選択します。</p>
 <p><img alt="" src="../circuit2-4-04.jpg" /></p>
 <p>ICから出ている線の部分全てに線を追加します。</p>
 <p><img alt="" src="../circuit2-4-05.jpg" /></p>
@@ -1348,7 +1386,7 @@
 <p><img alt="" src="../circuit2-4-07.jpg" /></p>
 <p>全ての場所に追加します。</p>
 <p><img alt="" src="../circuit2-4-08.jpg" /></p>
-<h2 id="_2">ラベル名の変更</h2>
+<h2 id="_3">ラベル名の変更</h2>
 <p><img alt="" src="../circuit2-4-09.jpg" /></p>
 <p>ATMEGA 328Pの説明</p>
 <p>|1|2|3|4|5|6|7|8|9|10|11|12|13|14|
@@ -1393,7 +1431,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../06.xtal/" title="2.5 水晶発信子の配置" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../05.regulator/" title="2.5 レギュレータ、DCジャックの配置" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -1402,19 +1440,19 @@
                 <span class="md-footer-nav__direction">
                   前
                 </span>
-                2.5 水晶発信子の配置
+                2.5 レギュレータ、DCジャックの配置
               </span>
             </div>
           </a>
         
         
-          <a href="../08.LED/" title="2.7 LEDの配置" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../07.xtal/" title="2.5 水晶発信子の配置" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   次
                 </span>
-                2.7 LEDの配置
+                2.5 水晶発信子の配置
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
