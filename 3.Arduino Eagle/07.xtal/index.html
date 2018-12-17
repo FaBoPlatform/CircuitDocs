@@ -538,9 +538,59 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        2.7 水晶発信子の配置
+      </label>
+    
     <a href="./" title="2.7 水晶発信子の配置" class="md-nav__link md-nav__link--active">
       2.7 水晶発信子の配置
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">目次</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" title="配置するパーツ" class="md-nav__link">
+    配置するパーツ
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#xtal" title="XTALの配置" class="md-nav__link">
+    XTALの配置
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" title="接続の確認" class="md-nav__link">
+    接続の確認
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gnd" title="セラミックコンデンサとGNDの追加" class="md-nav__link">
+    セラミックコンデンサとGNDの追加
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -1227,6 +1277,43 @@
     
   
   
+    <label class="md-nav__title" for="__toc">目次</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" title="配置するパーツ" class="md-nav__link">
+    配置するパーツ
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#xtal" title="XTALの配置" class="md-nav__link">
+    XTALの配置
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" title="接続の確認" class="md-nav__link">
+    接続の確認
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gnd" title="セラミックコンデンサとGNDの追加" class="md-nav__link">
+    セラミックコンデンサとGNDの追加
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1239,30 +1326,55 @@
                 
                 
                 <h1 id="27">2.7 水晶発信子の配置</h1>
-<p>水晶発振子を取り付けます。</p>
-<p><img alt="" src="../circuit2-5-01.jpg" /></p>
-<p>ツールバーの「Add」より水晶発振子を選択します。</p>
-<p><img alt="" src="../circuit2-5-02.jpg" /></p>
-<p>選択した部品を配置します。</p>
-<p><img alt="" src="../circuit2-5-03.jpg" /></p>
+<h2 id="_1">配置するパーツ</h2>
+<table>
+<thead>
+<tr>
+<th align="left">部品名</th>
+<th align="left">場所</th>
+<th align="left">データシート</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">クリスタル(16MHz)</td>
+<td align="left"><span class="keys"><kbd>FaBo-Crystal</kbd><span>+</span><kbd>CRYSTAL</kbd><span>+</span><kbd>CRYSTAL-HC49/S</kbd></span></td>
+<td align="left"><a href="http://akizukidenshi.com/download/ds/mercuryelectronic/hus.pdf">データシート</a></td>
+</tr>
+</tbody>
+</table>
+<p><img alt="" src="../img/xtal000.png" /></p>
+<h2 id="xtal">XTALの配置</h2>
+<p>ツールバーより<span class="keys"><kbd>Add Part</kbd></span>を選択します。</p>
+<p><span class="keys"><kbd>FaBo-Crystal</kbd><span>+</span><kbd>CRYSTAL</kbd><span>+</span><kbd>CRYSTAL-HC49/S</kbd></span>を選択します。</p>
+<p><img alt="" src="../img/xtal001.png" /></p>
+<p><img alt="" src="../img/xtal002.png" /></p>
 <p>水晶発信子の両側の線を伸ばします。</p>
-<p>ツールバーより「Net」を選択します。</p>
-<p><img alt="" src="../circuit2-5-04.jpg" /></p>
+<p>ツールバーより<span class="keys"><kbd>Net</kbd></span>を選択します。</p>
+<p><img alt="" src="../img/xtal003.png" /></p>
 <p>水晶発信子の左右に線を引きます。</p>
-<p><img alt="" src="../circuit2-5-05.jpg" /></p>
+<p><img alt="" src="../img/xtal004.png" /></p>
 <p>表示用のラベルを追加します。</p>
-<p>ツールバーより「Label」を選択します。</p>
-<p><img alt="" src="../circuit2-5-06.jpg" /></p>
+<p>ツールバーより<span class="keys"><kbd>Label</kbd></span>を選択します。</p>
+<p><img alt="" src="../img/xtal005.png" /></p>
 <p>左右のそれぞれの線に対してラベルを追加します。</p>
-<p><img alt="" src="../circuit2-5-07.jpg" /></p>
+<p><img alt="" src="../img/xtal006.png" /></p>
 <p>追加した線の名称の変更をします。</p>
-<p>ツールバーより「Name」を選択します。</p>
-<p><img alt="" src="../circuit2-5-08.jpg" /></p>
+<p>ツールバーより<span class="keys"><kbd>Name</kbd></span>を選択します。</p>
+<p><img alt="" src="../img/xtal007.png" /></p>
 <p>左右の線の名称を「PB6」「PB7」に変更します。</p>
-<p><img alt="" src="../circuit2-5-09.jpg" /></p>
+<p><img alt="" src="../img/xtal008.png" /></p>
+<h2 id="_2">接続の確認</h2>
+<p><img alt="" src="../img/xtal009.png" /></p>
+<p><img alt="" src="../img/xtal010.png" /></p>
+<p><img alt="" src="../img/xtal011.png" /></p>
+<h2 id="gnd">セラミックコンデンサとGNDの追加</h2>
 <p>コンデンサとGNDを追加します。</p>
 <p>どちらも既に配置済みですので、コピーして配置します。</p>
-<p><img alt="" src="../circuit2-5-10.jpg" /></p>
+<p>1.GNDを<span class="keys"><kbd>Copy</kbd></span>して配置。
+2.コンデンサを<span class="keys"><kbd>Copy</kbd></span>して配置。
+3.<span class="keys"><kbd>Net</kbd></span>で配線。
+4.<span class="keys"><kbd>Value</kbd></span>でコンデンサの値を22pFに書き換え</p>
                 
                   
                 
