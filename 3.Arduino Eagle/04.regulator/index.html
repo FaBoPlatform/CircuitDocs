@@ -521,21 +521,28 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" title="部品の配置" class="md-nav__link">
+  <a href="#_1" title="配線する部品" class="md-nav__link">
+    配線する部品
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" title="部品の配置" class="md-nav__link">
     部品の配置
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" title="値の設定" class="md-nav__link">
+  <a href="#_3" title="値の設定" class="md-nav__link">
     値の設定
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_3" title="線を引く" class="md-nav__link">
+  <a href="#_4" title="線を引く" class="md-nav__link">
     線を引く
   </a>
   
@@ -556,7 +563,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_4" title="データの保存" class="md-nav__link">
+  <a href="#_5" title="データの保存" class="md-nav__link">
     データの保存
   </a>
   
@@ -1295,21 +1302,28 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" title="部品の配置" class="md-nav__link">
+  <a href="#_1" title="配線する部品" class="md-nav__link">
+    配線する部品
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" title="部品の配置" class="md-nav__link">
     部品の配置
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" title="値の設定" class="md-nav__link">
+  <a href="#_3" title="値の設定" class="md-nav__link">
     値の設定
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_3" title="線を引く" class="md-nav__link">
+  <a href="#_4" title="線を引く" class="md-nav__link">
     線を引く
   </a>
   
@@ -1330,7 +1344,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_4" title="データの保存" class="md-nav__link">
+  <a href="#_5" title="データの保存" class="md-nav__link">
     データの保存
   </a>
   
@@ -1354,70 +1368,85 @@
                 
                 
                 <h1 id="24-dc">2.4 レギュレータ、DCジャックの配置</h1>
-<p>3端子レギュレータ(7805)
-http://akizukidenshi.com/catalog/g/gI-01373/</p>
-<p><img alt="" src="../circuit2-3-01.jpg" /></p>
-<h2 id="_1">部品の配置</h2>
+<h2 id="_1">配線する部品</h2>
+<table>
+<thead>
+<tr>
+<th align="left">名称</th>
+<th align="left">データシート</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">3端子レギュレータ(7805)</td>
+<td align="left"><a href="http://akizukidenshi.com/catalog/g/gI-01373/">http://akizukidenshi.com/catalog/g/gI-01373/</a></td>
+</tr>
+</tbody>
+</table>
+<p><img alt="" src="../img/regu001.jpg" /></p>
+<h2 id="_2">部品の配置</h2>
 <p>３端子レギュレータを配置します。</p>
-<p>基板の時と同様に、ツールバーより「Add」を選択します。</p>
-<p><img alt="" src="../circuit2-3-02.jpg" /></p>
-<p>今回使用するものは「TO220H」になります。</p>
-<p><img alt="" src="../circuit2-3-03.jpg" /></p>
+<p>基板の時と同様に、ツールバーより++Add Part"++を選択します。</p>
+<p><img alt="" src="../img/regu002.png" /></p>
+<p>今回使用する部品形状は、「TO220H」になります。</p>
+<p><img alt="" src="../img/regu003.png" /></p>
+<p><span class="keys"><kbd>FaBo-Supply</kbd><span>+</span><kbd>78XX</kbd></span>を選択します。</p>
+<p><img alt="" src="../img/regu004.png" /></p>
 <p>図のように配置します。</p>
-<p><img alt="" src="../circuit2-3-04.jpg" /></p>
+<p><img alt="" src="circuit2-3-04.jpg" /></p>
 <p>次に電源ジャックを配置します。</p>
 <p>「DC JACK」で検索して対象のものを選択します。</p>
-<p><img alt="" src="../circuit2-3-05.jpg" /></p>
+<p><img alt="" src="circuit2-3-05.jpg" /></p>
 <p>こちらも図のように配置します。</p>
-<p><img alt="" src="../circuit2-3-06.jpg" /></p>
+<p><img alt="" src="circuit2-3-06.jpg" /></p>
 <p>次はコンデンサの配置です。</p>
 <p>「capacitor」で検索し、「c2.5/2」の型のものを選択します。</p>
-<p><img alt="" src="../circuit2-3-07.jpg" /></p>
+<p><img alt="" src="circuit2-3-07.jpg" /></p>
 <p>３端子レギュレータの両側に１つずつ配置します。</p>
-<p><img alt="" src="../circuit2-3-08.jpg" /></p>
-<h2 id="_2">値の設定</h2>
+<p><img alt="" src="circuit2-3-08.jpg" /></p>
+<h2 id="_3">値の設定</h2>
 <p>配置部品の値を設定します。</p>
 <p>ツールバーより、「Value」を選択します。</p>
-<p><img alt="" src="../circuit2-3-09.jpg" /></p>
+<p><img alt="" src="circuit2-3-09.jpg" /></p>
 <p>「C１」のコンデンサを選択すると、「New value for C1」と表示されるので、「0.1uF」と入力し、「OK」ボタンを押下します。</p>
-<p><img alt="" src="../circuit2-3-11.jpg" /></p>
+<p><img alt="" src="circuit2-3-11.jpg" /></p>
 <p>同様に「C２」に「0.33uF」と入力します。</p>
 <p>入力が終わると画面上でコンデンサの値が見えるようになりました。</p>
-<p><img alt="" src="../circuit2-3-12.jpg" /></p>
-<h2 id="_3">線を引く</h2>
+<p><img alt="" src="circuit2-3-12.jpg" /></p>
+<h2 id="_4">線を引く</h2>
 <p>部品同士を接続するために線を引きます。</p>
 <p>ツールバーより「Net」を選択します。</p>
-<p><img alt="" src="../circuit2-3-13.jpg" /></p>
+<p><img alt="" src="circuit2-3-13.jpg" /></p>
 <p>部品の線がでている部分を始点に線を引いて行きます。</p>
-<p><img alt="" src="../circuit2-3-14.jpg" /></p>
+<p><img alt="" src="circuit2-3-14.jpg" /></p>
 <p>交差ポイントに緑の丸点がでてこない場合は線が繋がっていない状態なので、自分で追加します。</p>
 <p>ツールバーより「Junction」を選択します。</p>
-<p><img alt="" src="../circuit2-3-15.jpg" /></p>
+<p><img alt="" src="circuit2-3-15.jpg" /></p>
 <p>交差ポイントをクリックする事で丸点を配置することができます。</p>
-<p><img alt="" src="../circuit2-3-16.jpg" /></p>
+<p><img alt="" src="circuit2-3-16.jpg" /></p>
 <h2 id="gnd">GNDを追加</h2>
 <p>GNDを追加します。
 ツールバーより「Add」を選択します。
 「GND」で検索し、「supply1」の「GND」を選択します。</p>
-<p><img alt="" src="../circuit2-3-18.jpg" /></p>
+<p><img alt="" src="circuit2-3-18.jpg" /></p>
 <p>GNDは先ほど作成した回路の下部分に配置します。</p>
-<p><img alt="" src="../circuit2-3-19.jpg" /></p>
+<p><img alt="" src="circuit2-3-19.jpg" /></p>
 <p>配置の次は配線です。ツールバーより「Net」を選択します。</p>
-<p><img alt="" src="../circuit2-3-20.jpg" /></p>
+<p><img alt="" src="circuit2-3-20.jpg" /></p>
 <p>GNDから上に線を引き、上の回路に繋げます。</p>
-<p><img alt="" src="../circuit2-3-20-2.jpg" /></p>
+<p><img alt="" src="circuit2-3-20-2.jpg" /></p>
 <h2 id="5v">出力される5V</h2>
 <p>次にレギュレータによって出力される「5V」を配置します。</p>
 <p>「+5V」で検索し、「supply1」の「+5V」を選択します。</p>
-<p><img alt="" src="../circuit2-3-21-2.jpg" /></p>
+<p><img alt="" src="circuit2-3-21-2.jpg" /></p>
 <p>先ほど作成した回路の右上に配置します。</p>
-<p><img alt="" src="../circuit2-3-22.jpg" /></p>
+<p><img alt="" src="circuit2-3-22.jpg" /></p>
 <p>「ツールバー」より「Net」を選択し、+5Vと先ほどの回路に線を引きます。</p>
-<p><img alt="" src="../circuit2-3-24.jpg" /></p>
-<h2 id="_4">データの保存</h2>
+<p><img alt="" src="circuit2-3-24.jpg" /></p>
+<h2 id="_5">データの保存</h2>
 <p>ここまで出来ましたら一旦データを保存します。</p>
 <p>メニューより、File &gt; Save as...を選択し、ファイル名を設定して保存します。</p>
-<p><img alt="" src="../circuit2-3-25.jpg" /></p>
+<p><img alt="" src="circuit2-3-25.jpg" /></p>
 <p>エラー等でEagleが終了してしまった場合にやり直しになってしまうので、頻繁に保存することをおすすめします。</p>
                 
                   
