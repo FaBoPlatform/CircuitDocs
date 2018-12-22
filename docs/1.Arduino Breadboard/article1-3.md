@@ -9,12 +9,12 @@
 ## 説明
 
 <b>ATMEGA328P</b>
-:		![](circuit1-03.jpg)<br>
+:		![](./img/circuit1-03.jpg)<br>
 		プログラムを動作させるために必要になります。
 		ArduinoIDEにてマイコンにプログラムを書込む場合、先にArduino用のブートローダーを書込む必要がありますが、今回はブートローダーが既に入っているものを使用します。
 
 <b>ATMEGA 328P 配線図</b>
-:		![](circuit1-04.jpg)
+:		![](./img/circuit1-04.jpg)
 
 
 ATMEGA 328Pのピンの説明
@@ -60,10 +60,10 @@ ATMEGA 328Pのピンの説明
 
 赤い部分に5V、黒い部分にGNDを接続します。
 
-![](circuit1-05.jpg)
+![](./img/circuit1-05.jpg)
 
 ## 配線図
 
-![](circuit1-06.jpg)
+![](./img/circuit1-06.jpg)
 
 

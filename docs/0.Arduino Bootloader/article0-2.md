@@ -4,9 +4,9 @@
 
 ArduinoUnoにRomライターシールドを差し込み、ATEMEGA328P−PUをPCに接続する。
 
-![](bootlaoder01.jpg)
+![](./img/bootlaoder01.jpg)
 
-![](bootlaoder02.jpg)
+![](./img/bootlaoder02.jpg)
 
 ## ArduinoをISPに設定
 

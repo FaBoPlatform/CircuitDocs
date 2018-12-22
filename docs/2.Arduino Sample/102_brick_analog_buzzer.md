@@ -1,4 +1,4 @@
-# #102 Buzzer Brick
+# 2.2 #102 Buzzer Brick
 
 ## Overview
 圧電ブザーを使ったBrickです。I/Oピンより、鳴らす音や音の長さを制御することができます。

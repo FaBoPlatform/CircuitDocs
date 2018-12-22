@@ -11,9 +11,9 @@
 
 緑の部分がリセット端子になります。
 
-![](circuit1-11.jpg)
+![](./img/circuit1-11.jpg)
 
 ## 配線図
 
-![](circuit1-12.jpg)
+![](./img/circuit1-12.jpg)
 

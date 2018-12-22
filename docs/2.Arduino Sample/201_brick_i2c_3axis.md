@@ -1,4 +1,4 @@
-# #201 3Axis I2C Brick
+# 2.4 #201 3Axis I2C Brick
 
 ## Overview
 

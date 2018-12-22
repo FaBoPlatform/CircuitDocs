@@ -10,7 +10,7 @@
 ## 説明
 ATMEGA 328PのArduinoのスケッチ上でのピン配置は下記の通りになります。
 
-![](circuit1-09.jpg)
+![](./img/circuit1-09.jpg)
 
 ## 配線図
 digital 13のpinに330Ωの抵抗を接続し、LEDに接続します。
@@ -19,4 +19,4 @@ LEDは、digital 13の方が+(長い方)になります。
 
 向きを間違えるとLEDが破損しますので注意して下さい。
 
-![](circuit1-10.jpg)
+![](./img/circuit1-10.jpg)

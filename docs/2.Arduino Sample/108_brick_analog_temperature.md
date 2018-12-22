@@ -1,4 +1,4 @@
-# #108 Temperature Brick
+# 2.3 #108 Temperature Brick
 
 ## Overview
 温度を計測するBrickです。

@@ -1,4 +1,4 @@
-# #203 Color I2C Brick
+# 2.5 #203 Color I2C Brick
 
 ## Overview
 カラーセンサを使用したBrickです。
